@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 
 
-/*------------=== HOMEPAGE ===-------------------------------*/
+/*------------=== ABOUT PAGE ===-------------------------------*/
 
 /*--------------- BASE HEADER - FOOTER STYLES ---------------*/
 
@@ -113,6 +113,10 @@ footer {
 
 
 /*------- HEADER STYLES -------*/
+
+header {
+
+}
 
 header .content-wrapper {
   display: flex;
@@ -186,22 +190,22 @@ footer .social-icons {
 
 /*- COPYWRIGHT -*/
 
-footer .copywright {
+.copywright {
 
 }
 
 
 
-/*--------------- MAIN STYLES - HOMEPAGE ---------------*/
+/*--------------- MAIN STYLES - ABOUT PAGE ---------------*/
 
 main {
 
 }
 
 
-/*- HERO AREA -*/
+/*- MISSION -*/
 
-.hero-area {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,62 +216,11 @@ main .content-wrapper {
 
 }
 
-main h1 {
+main h2 {
 
 }
 
-
-/*- FORM -*/
-
-aside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-aside .content-wrapper {
-
-}
-
-aside .form-description {
-
-}
-
-aside h3 {
-
-}
-
-aside p {
-
-}
-
-aside .form {
-
-}
-
-
-/*- FEATURES -*/
-
-.features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.features h2 {
-
-}
-
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-article {
+.mission-content {
 
 }
 
@@ -275,36 +228,40 @@ main p {
 
 }
 
-main p .fontawesome-icon {
+
+/*- MAP -*/
+
+.map {
 
 }
 
-main p .features-item-description {
 
-}
+/*- CONTACT -*/
 
-
-/*- REVIEWS -*/
-
-.reviews {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.reviews h3 {
+.contact-content {
+
+}
+
+main h4 {
 
 }
 
 
-/*--------------- TABLET STYLES - HOMEPAGE ---------------*/
+
+/*--------------- TABLET STYLES - ABOUT PAGE ---------------*/
 
 
 
 
 
-/*--------------- DESKTOP STYLES - HOMEPAGE ---------------*/
+/*--------------- DESKTOP STYLES - ABOUT PAGE ---------------*/
 
 
 

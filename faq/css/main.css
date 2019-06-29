@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 
 
-/*------------=== HOMEPAGE ===-------------------------------*/
+/*------------=== FAQ PAGE ===-------------------------------*/
 
 /*--------------- BASE HEADER - FOOTER STYLES ---------------*/
 
@@ -113,6 +113,10 @@ footer {
 
 
 /*------- HEADER STYLES -------*/
+
+header {
+
+}
 
 header .content-wrapper {
   display: flex;
@@ -192,82 +196,38 @@ footer .copywright {
 
 
 
-/*--------------- MAIN STYLES - HOMEPAGE ---------------*/
+/*--------------- MAIN STYLES - FAQ PAGE ---------------*/
 
 main {
 
 }
 
 
-/*- HERO AREA -*/
+/*- FAQ AREA -*/
 
-.hero-area {
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-main .content-wrapper {
-
-}
-
-main h1 {
-
-}
-
-
-/*- FORM -*/
-
-aside {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-aside .content-wrapper {
+main h2 {
 
 }
 
-aside .form-description {
+main .faq-content {
 
 }
 
-aside h3 {
-
-}
-
-aside p {
-
-}
-
-aside .form {
-
-}
-
-
-/*- FEATURES -*/
-
-.features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.features h2 {
-
-}
-
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-article {
+main h4 {
 
 }
 
@@ -275,36 +235,14 @@ main p {
 
 }
 
-main p .fontawesome-icon {
 
-}
-
-main p .features-item-description {
-
-}
-
-
-/*- REVIEWS -*/
-
-.reviews {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.reviews h3 {
-
-}
-
-
-/*--------------- TABLET STYLES - HOMEPAGE ---------------*/
+/*--------------- TABLET STYLES - FAQ PAGE ---------------*/
 
 
 
 
 
-/*--------------- DESKTOP STYLES - HOMEPAGE ---------------*/
+/*--------------- DESKTOP STYLES - FAQ PAGE ---------------*/
 
 
 
