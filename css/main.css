@@ -101,6 +101,11 @@ textarea {
 
 /*------------=== HOMEPAGE ===-------------------------------*/
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /*--------------- BASE HEADER - FOOTER STYLES ---------------*/
 
 header,
@@ -114,15 +119,22 @@ footer {
 
 /*------- HEADER STYLES -------*/
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -130,23 +142,25 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 
 /*------- FOOTER STYLES -------*/
 
 footer {
-
+  flex-direction: column;
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 50px 0; 
 }
 
 footer .footer-content {
@@ -157,7 +171,7 @@ footer .footer-content {
 /*- CONTACT -*/
 
 footer .contact {
-
+  margin-bottom: 50px;
 }
 
 footer h4 {
@@ -165,7 +179,7 @@ footer h4 {
 }
 
 footer p {
-
+  margin: 0;
 }
 
 
@@ -179,6 +193,12 @@ footer .social {
 
 footer .social-icons {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -187,7 +207,7 @@ footer .social-icons {
 /*- COPYWRIGHT -*/
 
 footer .copywright {
-
+  margin: 20px 0;
 }
 
 
@@ -204,7 +224,6 @@ main {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -252,12 +271,11 @@ aside .form {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
 .features h2 {
-
+  margin-bottom: 60px;
 }
 
 .features .features-items {
@@ -267,19 +285,20 @@ aside .form {
   flex-flow: row wrap;
 }
 
-article {
+.features article {
+  width: 55%;
+  margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features p .fontawesome-icon {
 
 }
 
-main p {
-
-}
-
-main p .fontawesome-icon {
-
-}
-
-main p .features-item-description {
+.features p .features-item-description {
 
 }
 
@@ -289,12 +308,15 @@ main p .features-item-description {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.reviews h3 {
+.reviews h2 {
+  margin-bottom: 40px;
+}
 
+.reviews h3 {
+  width: 50%;
 }
 
 
