@@ -273,20 +273,6 @@ main h4 {
 
 
 
-/*--------------- TABLET STYLES - ABOUT PAGE ---------------*/
-
-
-
-
-
-/*--------------- DESKTOP STYLES - ABOUT PAGE ---------------*/
-
-
-
-
-
-
-
 
 
 
@@ -379,9 +365,88 @@ main h4 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 768px) {
+    /* Tablet styles */
+  
+    /* General styles */
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+    }
+  
+    /* Header */
+  
+    header {
+      justify-content: center;
+  
+    }
+  
+    header .content-wrapper {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    header nav {
+      width: 20%;
+    }
+  
+    header nav ul {
+      justify-content: space-between;
+    }
+  
+    .header-divider {
+      display: none;
+    }
+
+
+    /* Mission */
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .mission-content p {
+      width: 40%;
+    }
+
+
+    /* Contact */
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
+
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+
+
+    /* Footer */
+  footer .content-wrapper {
+    width:65%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copywright {
+    width:100%;
+  }
 }
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
